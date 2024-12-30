@@ -1,0 +1,56 @@
+/* src/components/Navbar/MobileNavbar.css */
+.mobile-navbar {
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .mobile-navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mobile-navbar-logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .mobile-navbar-toggle {
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .mobile-navbar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mobile-navbar-item {
+    margin: 15px 0;
+  }
+  
+  .mobile-navbar-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Responsive for web */
+  @media (min-width: 769px) {
+    .mobile-navbar {
+      display: none;
+    }
+  }
+  
